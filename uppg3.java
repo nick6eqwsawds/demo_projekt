@@ -5,6 +5,8 @@ public class uppg3 {
         int tal2 = 45;
         int tal3 = 234232;
         int tal4 = 3424;
+        int tal5 = 10;
+        int tal6 = 3;
         int summa;
         int summa_subtraktion;
         int produkt;
@@ -17,5 +19,10 @@ public class uppg3 {
         System.out.println("Uppg B");
         System.out.println(tal3+"*"+tal4+"="+produkt);
         System.out.println(tal2+"*"+tal3+"*"+tal4+"="+produkt*tal2);
+
+        System.out.println("Uppg C");
+        double kvot = tal6/tal3;
+        double 
+
     }
 }

@@ -29,6 +29,7 @@ public class Heltal {
 
         System.out.println("Summan av additionen är "+dec_summa_add);
         System.out.println("Summan av subtraktionen är "+dec_summa_sub);
+        
     }
     
 }
