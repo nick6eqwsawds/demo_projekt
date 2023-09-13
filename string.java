@@ -18,6 +18,7 @@ public class string {
         String e_namn="Anka";
 
         String namn = f_namn+" "+e_namn;
+        System.out.println(namn);
 
         // Blandning Strängar och tal
 
