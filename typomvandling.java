@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class typomvandling{
     public static void main(String[] args) throws Exception{
         int x = 30;
@@ -7,5 +9,16 @@ public class typomvandling{
         int d = (int) d_dec;
         System.out.println(y+" / "+x+" = "+d_dec);
         System.out.println(d_dec+" som heltal är "+d);
+
+        //del 2
+        System.out.println("Skriv ett substantiv:");
+        try (Scanner tangentbord = new Scanner(System.in)){
+            String substantiv = tangentbord.nextLine();
+
+            System.out.println("Skriv substantivets pluraländelse:");
+            String plural_ändelse = tangentbord.nextLine();
+
+        System.out.println("En "+substantiv+", Flera "+substantiv+plural_ändelse);
+        }
     }
 }
