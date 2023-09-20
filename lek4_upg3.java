@@ -21,11 +21,17 @@ public class lek4_upg3 {
 
      int plats3 = data.indexOf(" ", plats2+1);
      String längd = data.substring(plats2+1, plats3);
-     System.out.println("du är "+ längd+"cm lång");
+     double längd1 = Double.parseDouble(längd);
+     System.out.println("du är "+ längd1+"cm lång");
 
      int plats4 = data.indexOf(" ", plats3+1);
-     String vikt = data.substring(plats3+1, plats4);
-     System.out.println("du väger "+ vikt+"kg");
+     String ålder = data.substring(plats3+1, plats4);
+     System.out.println("Du är "+ ålder+" år gammal");
+
+     int plats5 = data.indexOf(" ", plats4+1);
+     String vikt = data.substring(plats4+1, plats5);
+     double vikt1 = Double.parseDouble(vikt);
+     System.out.println("du väger "+ vikt1+"kg");
 
     }
     }
