@@ -33,6 +33,14 @@ public class lek4_upg3 {
      double vikt1 = Double.parseDouble(vikt);
      System.out.println("du väger "+ vikt1+"kg");
 
+     int ålder2 = Integer.parseInt(ålder);
+     int ålder3 = ålder2%2;
+     if (ålder3 > 0) {
+        System.out.println("Du fylle jämt om 1 år");
+     } else {
+        System.out.println("Du fyller jämt om 2 år");
+     }
+
     }
     }
 }

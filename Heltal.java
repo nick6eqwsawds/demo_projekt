@@ -1,4 +1,8 @@
 public class Heltal {
+    /**
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception{
         int tal1 = 2;
         int tal2 = 30;
@@ -16,10 +20,15 @@ public class Heltal {
         System.out.println("Kvoten av tal1/tal2 är "+kvot);
 
         int rest1 = 10%3;
-        int rest2 = 9%3;
-
+        int rest2 = 84%2;
         System.out.println("Resten av 10/3 är "+rest1);
         System.out.println("Resten av 9/3 är "+rest2);
+
+        if (rest2 > 0) {
+            System.out.println("Du är inte heltal gammal");
+        } else {
+            System.out.println("Du är heltal gammal");
+        }
 
         double decimal_tal1 = 5.0;
         double decimal_tal2 = 23.41;
