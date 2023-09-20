@@ -42,7 +42,7 @@ public class string {
 
         // String metoder:hämta deltext
         String del_sträng = nytt_namn.substring(0, 5);
-        System.out.println("TExt mellan index 0 och 5 är "+ del_sträng);
+        System.out.println("Text mellan index 0 och 5 är "+ del_sträng);
 
         String jämförelse_sträng="Kajsa Anka";
         nytt_namn.equalsIgnoreCase(jämförelse_sträng);
