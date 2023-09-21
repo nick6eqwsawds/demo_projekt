@@ -32,6 +32,7 @@ public class lek4_upg3 {
      String vikt = data.substring(plats4+1, plats5);
      double vikt1 = Double.parseDouble(vikt);
      System.out.println("du väger "+ vikt1+"kg");
+     System.out.println("du väger kanske "+ vikt);
 
      int ålder2 = Integer.parseInt(ålder);
      int ålder3 = ålder2%2;
@@ -40,6 +41,15 @@ public class lek4_upg3 {
      } else {
         System.out.println("Du fyller jämt om 2 år");
      }
+
+     int vikt2 = (int)vikt1;
+
+     if (vikt1-vikt2 > 0.4999){
+        vikt2 = vikt2+1;
+     }else {
+        vikt2 = vikt2+1-1;
+     }
+     System.out.println("Din vikt avrundar till "+vikt2);
 
     }
     }

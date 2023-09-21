@@ -7,6 +7,11 @@ public class typomvandling{
 
         double d_dec = (double)y/x;
         int d = (int) d_dec;
+        if (d_dec-d > 0.49999){
+             d = d+1;
+        } else {
+            d = d+1-1;
+        }
         System.out.println(y+" / "+x+" = "+d_dec);
         System.out.println(d_dec+" som heltal är "+d);
 
