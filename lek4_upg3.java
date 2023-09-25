@@ -32,7 +32,6 @@ public class lek4_upg3 {
      String vikt = data.substring(plats4+1, plats5);
      double vikt1 = Double.parseDouble(vikt);
      System.out.println("du väger "+ vikt1+"kg");
-     System.out.println("du väger kanske "+ vikt);
 
      int ålder2 = Integer.parseInt(ålder);
      int ålder3 = ålder2%2;
