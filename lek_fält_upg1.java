@@ -18,6 +18,9 @@ public class lek_fält_upg1 {
         
         double medelvärde2 = (fält2[0]+fält2[1]+fält2[2]+fält2[3]+fält2[4])/fält2.length;
         System.out.println("medelvärdet av fält2 = "+medelvärde2);
+
+        int[] summafält = {fält1[0]+fält2[0], fält1[1]+fält2[1], fält1[2]+fält2[2], fält1[3]+fält2[3], fält1[4]+fält2[4] };
+        System.out.println("summafält variablar är: "+summafält[0]+" "+summafält[1]+" "+summafält[2]+" "+summafält[3]+" "+summafält[4]);
     }
 }
 
